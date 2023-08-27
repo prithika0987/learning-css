@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+  border: 5px solid black;
+  height: 1000px;
+  max-width: 1100px;
+  margin: 16px;
+  padding: 16px;
+}
+
+.my-form {
+  border: 2px solid black;
+  padding: 8px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-grp label {
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  margin: 6px;
+}
+
+.form-grp input,
+.form-grp textarea {
+  width: 80%;
+}
+
+
+
+.register-container button {
+  width: 150px;
+  background-color: tomato;
+}

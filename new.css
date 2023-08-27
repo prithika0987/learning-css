@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+  border: 20px solid #333;
+  height: 400px;
+
+  max-width: 1100px;
+  margin: 16px;
+  margin: auto;
+
+  padding: 16px;
+}
+
+.my-form {
+  border: 2px solid #333;
+  padding: 8px;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+.form-grp {
+  padding: 8px;
+  width: 100%;
+}
+
+.form-grp label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-grp input {
+  padding: 8px;
+  width: 90%;
+}
+
+.submit-container {
+  padding-left: 8px;
+}
+
+.submit-container button {
+  width: 100%;
+  padding: 8px;
+  background-color: blue;
+  color: white;
+}
+
+.submit-container button:hover {
+  cursor: pointer;
+  background-color: darkblue;
+}

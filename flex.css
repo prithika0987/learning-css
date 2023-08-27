@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 16px;
+  padding: 16px;
+  width: 640px;
+  height: 320px;
+  border: 2px solid #333;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* This is a shorthand for flex direction and wrap */
+  /* flex-flow: row wrap; */
+
+
+  justify-content: center;
+  /* align-items: center; */
+
+  gap: 16px;
+}
+
+.container div {
+  width: 120px;
+  /* height: 100px; */
+  border: 2px solid blue;
+  /* margin-left: 4px;
+  margin-bottom: 4px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child1,
+.child5,
+.child8 {
+  order: -1;
+}
+
+.container2 {
+  margin: 16px;
+  padding: 16px;
+  width: 640px;
+  height: 320px;
+  border: 2px solid #333;
+
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.container2 div {
+  /* width: 120px; */
+  height: 100px;
+  border: 2px solid blue;
+}
+
+
+/* .container2child1 {
+  flex-grow: 1;
+}
+
+.container2child2 {
+  flex-grow: 2;
+} */
+
+.container2child1 {
+  flex: 1
+}
+
+.container2child2 {
+  flex: 2;
+  align-self: center;
+}
